@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#userTable {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+#userTable th, #userTable td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+#userTable th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#userTable tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#userTable tr:hover {
+    background-color: #ddd;
+}
+
+#userTable a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+#userTable a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
