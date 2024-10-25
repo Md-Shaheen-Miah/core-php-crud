@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif; /* ফন্টের পরিবার নির্ধারণ */
+    background-color: #f4f4f4; /* পৃষ্ঠার পটভূমির রং */
+    padding: 20px; /* পৃষ্ঠার চারপাশে প্যাডিং */
+}
+
+form {
+    background-color: #fff; /* ফর্মের পটভূমির রং */
+    border: 1px solid #ccc; /* ফর্মের চারপাশে বর্ডার */
+    border-radius: 5px; /* কোণের গোলাকার তৈরি */
+    padding: 20px; /* ফর্মের ভিতরের প্যাডিং */
+    max-width: 400px; /* সর্বাধিক প্রস্থ */
+    margin: auto; /* মাঝের দিকে ফর্ম রাখে */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* সামান্য ছায়া */
+}
+
+label {
+    display: block; /* ব্লক এলিমেন্টের মতো দেখাবে */
+    margin-bottom: 5px; /* লেবেলের নিচে কিছু স্পেস */
+    font-weight: bold; /* লেবেলের ফন্টের গাঢ়তা */
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 100%; /* সম্পূর্ণ প্রস্থ */
+    padding: 10px; /* প্যাডিং */
+    margin-bottom: 15px; /* নিচের দিকে কিছু স্পেস */
+    border: 1px solid #ccc; /* বর্ডার */
+    border-radius: 5px; /* গোলাকার কোণ */
+    box-sizing: border-box; /* বর্ডার এবং প্যাডিংকে প্রস্থের মধ্যে অন্তর্ভুক্ত করা */
+}
+
+input[type="submit"] {
+    font-weight: bold;
+    background-color: #10e210; /* বোতামের পটভূমির রং */
+    color: white; /* টেক্সটের রং */
+    padding: 10px 15px; /* প্যাডিং */
+    border: none; /* কোনো বর্ডার নেই */
+    border-radius: 5px; /* গোলাকার কোণ */
+    cursor: pointer; /* মাউস কার্সর পরিবর্তন */
+    font-size: 16px; /* ফন্টের আকার */
+}
+
+input[type="submit"]:hover {
+    background-color: teal; /* হোভার করার সময় পটভূমির রং */
+}
+h2{
+    text-align: center;
+    color: teal;
+}

@@ -1,18 +1,16 @@
 <?php
-// database connection
-$connection = mysqli_connect('localhost', 'root', '', 'php_crud');
-
-if (!$connection) {
-    die("Database connection failed: " . mysqli_connect_error());
+$connection = mysqli_connect('localhost','root','','crud_2');
+if(!$connection){
+    die ('Not Connected.' .mysqli_error($connection));
 }
 
-// data fetch fron database
 $query = "SELECT * FROM users";
-$result = mysqli_query($connection, $query);
 
-if (!$result) {
-    die("Query failed: " . mysqli_error($connection));
-}
+$result =mysqli_query($connection, $query);
+
+
+
+
 ?>
 
 <!DOCTYPE html>
