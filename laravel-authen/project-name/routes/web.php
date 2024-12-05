@@ -1,8 +1,9 @@
 <?php
-use App\Http\Controllers\AdminController;
-use App\Http\Controllers\UserController;
-use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\UserController;
+use App\Http\Controllers\AdminController;
+use App\Http\Controllers\ContactController;
+use App\Http\Controllers\ProfileController;
 
 Route::get('/', function () {
     return view('welcome');
@@ -28,3 +29,8 @@ Route::group(['middleware' => ['role:Admin']], function () {
 Route::group(['middleware' => ['role:User']], function () {
     Route::get('/user-profile', [UserController::class, 'profile']);
 });
+
+
+
+
+

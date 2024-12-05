@@ -1,3 +1,4 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@tailwind base;        /* Tailwind CSS-এর মৌলিক শৈলী সেটিংস। */
+@tailwind components;   /* Tailwind CSS-এর কম্পোনেন্টের জন্য স্টাইলগুলি। */
+@tailwind utilities;    /* Tailwind CSS-এর ইউটিলিটিস সম্বলিত স্টাইলগুলি। */
+@import "bootstrap/dist/css/bootstrap.min.css"; /* Bootstrap-এর CSS ফাইল ইম্পোর্ট করা হচ্ছে। */

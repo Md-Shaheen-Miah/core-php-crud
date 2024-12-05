@@ -5,12 +5,11 @@ use App\Models\UserPhone;
 use App\Models\User;
 use App\Http\Controllers\UploadController;
 
-
 Route::get('/', function () {
-    $user = User::find(1); // User ID 1 খুঁজে বের করা
     
-    return $user; // এখানে শুধুমাত্র একটি return প্রয়োজন
+    return view('welcome');
 });
+
 
 
 
